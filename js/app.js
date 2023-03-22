@@ -16,4 +16,4 @@ if(return_length_10 >= 10){
 
 }
 
-string_length(`I_am_over_ten_length`.length);
+string_length(`I_am_small`.length);
