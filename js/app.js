@@ -13,7 +13,7 @@ if(return_length_10 >= 10){
 
     return true;
 }
-
+return false;
 }
 
-string_length(`I_am_small`.length);
+string_length(`I_small`.length);
