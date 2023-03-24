@@ -10,9 +10,9 @@ let math_3 = do_math(175, 750);
 
 //it then cycles through these variables to achieve different results//
 
-console.log(`returned 500`);
-console.log(`returned 7500`);
-console.log(`returned 8600`);
+console.log(math);
+console.log(math_2);
+console.log(math_3);
 
 //logging the results from the debugger//
 
@@ -30,15 +30,14 @@ function string_length(return_length_1) {
 
 let result_1 = string_length(`I_small`.length);
 
+let result_2 = string_length(`I_am_short`.length);
 
-let result_2 = string_length_2(`I_am_short`.length);
-
-let result_3 = string_length_3(`I_am_over_ten_length`.length);
+let result_3 = string_length(`I_am_over_ten_length`.length);
 
 
-console.log('I_am_over_ten_length: returned true');
-console.log(`I_am_short: returned true`);
-console.log(`I_small: returned false`);
+console.log(result_1);
+console.log(result_2);
+console.log(result_3);
 
 //results from debugger are logged//
 
