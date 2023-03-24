@@ -34,9 +34,12 @@ let result_1 = string_length(`I_small`.length);
 let result_2 = string_length_2(`I_am_short`.length);
 
 let result_3 = string_length_3(`I_am_over_ten_length`.length);
+
+
 console.log('I_am_over_ten_length: returned true');
 console.log(`I_am_short: returned true`);
 console.log(`I_small: returned false`);
+
 //results from debugger are logged//
 
 
