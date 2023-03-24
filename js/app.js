@@ -29,14 +29,14 @@ function string_length(return_length_1) {
 //this is achieved by adding .length at the end of the string placed in the variable//
 
 let result_1 = string_length(`I_small`.length);
-console.log(`I_small: returned false`);
+
 
 let result_2 = string_length_2(`I_am_short`.length);
-console.log(`I_am_short: returned true`);
 
 let result_3 = string_length_3(`I_am_over_ten_length`.length);
 console.log('I_am_over_ten_length: returned true');
-
+console.log(`I_am_short: returned true`);
+console.log(`I_small: returned false`);
 //results from debugger are logged//
 
 
